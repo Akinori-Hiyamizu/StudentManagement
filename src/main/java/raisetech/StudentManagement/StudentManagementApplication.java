@@ -28,4 +28,8 @@ public class StudentManagementApplication {
 		this.age = age;
 	}
 
+	@PostMapping("/studentName")
+	public void updateStudentName(String name){
+		this.name = name;
+	}
 }
